@@ -3,8 +3,7 @@
 require "sistema/configuracao.php";
 include_once "Helpers.php";
 
-$texto ="alouaiushdaiushdiuashdiuahiudiau" ;
+$texto ="<h1>alouaiushdaius hdiuashdiuahiudiau</h1>" ;
 
-echo saudacao();
-echo '<hr>';
-echo resumirTexto($texto, 6);
+
+echo resumirTexto($texto, 20);
